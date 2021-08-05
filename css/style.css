@@ -6,7 +6,7 @@ body {
 	overflow-y: auto;
 	position: relative;
 	width: 100%;
-	min-width: 1200px;
+	/* min-width: 1200px; */
 }
 body,
 dd,
@@ -90,7 +90,7 @@ img {
 	position: relative;
 }
 .content {
-	width: 1200px;
+	/* width: 1200px; */
 	margin: 0 auto;
 	zoom: 1;
 	position: relative;
