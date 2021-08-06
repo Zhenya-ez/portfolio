@@ -42,7 +42,7 @@ li {
 
 #gradient {
 	width: 100%;
-	height: 2000px;
+	height: 2500px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -259,114 +259,174 @@ ul:after {
 	margin-left: 15px;
 }
 
-
 /* arrows */
-#ul1 > ul{
-  display:flex;
-  flex-direction:row;
-  justify-items:center;
+#ul1 > ul {
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
 }
-#ul1 > li{
-  /* position:static; */
-		position: fixed;
+#ul1 > li {
+	/* position:static; */
+	position: fixed;
 
-  /* border:2px solid #2980B9; */
-  list-style:none;
-  margin:10px;
-  padding:10px;
-  border-radius:50px;
-  display:flex;
+	/* border:2px solid #2980B9; */
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+	/* border-radius: 50px; */
+	display: flex;
 }
 
-#ul1 > #up{
+#ul1 > #up {
 	top: 25%;
 	right: 2%;
 }
 
-#ul1 > #down{
+#ul1 > #down {
 	top: 75%;
 	right: 2%;
 }
 
-#up, #down{
-  align-self:center;
+#up,
+#down {
+	align-self: center;
 	z-index: 12;
 }
 
-#up{
-  flex-direction:column-reverse;
-  padding: 60px 80px 0px 80px;
+#up {
+	flex-direction: column-reverse;
+	padding: 60px 80px 0px 80px;
 }
 
-#down{
-  flex-direction:column;
-  padding: 0px 80px 60px 80px;
+#down {
+	flex-direction: column;
+	padding: 0px 80px 60px 80px;
 }
 
-.meh{
-  width:30px;
-  height:30px;
-  position:relative;
-  box-shadow: -10px -10px #58775E;
-  transform: rotate(45deg);
-  border-radius:3px;
+.meh {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	box-shadow: -10px -10px #58775e;
+	transform: rotate(45deg);
+	border-radius: 3px;
 }
 
-.deh{
-  width:30px;
-  height:30px;
-  position:relative;
-  box-shadow: 10px 10px #58775E;
-  transform: rotate(45deg);
-  border-radius:3px;
+.deh {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	box-shadow: 10px 10px #58775e;
+	transform: rotate(45deg);
+	border-radius: 3px;
 }
 .m1 {
-  animation: ani3 1.6s steps(5, start) infinite;
-  -webkit-animation: ani3 1.6s steps(5, start) infinite;
+	animation: ani3 1.6s steps(5, start) infinite;
+	-webkit-animation: ani3 1.6s steps(5, start) infinite;
 }
 .m2 {
-  animation: ani2 1.6s steps(5, start) infinite;
-  -webkit-animation: ani2 1.6s steps(5, start) infinite;
+	animation: ani2 1.6s steps(5, start) infinite;
+	-webkit-animation: ani2 1.6s steps(5, start) infinite;
 }
 .m3 {
-  animation: ani1 1.6s steps(5, start) infinite;
-  -webkit-animation: ani1 1.6s steps(5, start) infinite;
+	animation: ani1 1.6s steps(5, start) infinite;
+	-webkit-animation: ani1 1.6s steps(5, start) infinite;
 }
 @keyframes ani1 {
-   0% {opacity:0.1;}
-  11% {opacity:0.1;}
-  22% {opacity:0.1;}
-  33% {opacity:0.15;}
-  44% {opacity:0.25;}
-  55% {opacity:0.5;}
-  66% {opacity:1;}
-  77% {opacity:0.5;}
-  88% {opacity:0.25;}
-  100% {opacity:0.15;}
+	0% {
+		opacity: 0.1;
+	}
+	11% {
+		opacity: 0.1;
+	}
+	22% {
+		opacity: 0.1;
+	}
+	33% {
+		opacity: 0.15;
+	}
+	44% {
+		opacity: 0.25;
+	}
+	55% {
+		opacity: 0.5;
+	}
+	66% {
+		opacity: 1;
+	}
+	77% {
+		opacity: 0.5;
+	}
+	88% {
+		opacity: 0.25;
+	}
+	100% {
+		opacity: 0.15;
+	}
 }
 @keyframes ani2 {
-   0% {opacity:0.1;}
-  11% {opacity:0.15;}
-  22% {opacity:0.25;}
-  33% {opacity:0.5;}
-  44% {opacity:1;}
-  55% {opacity:0.5;}
-  66% {opacity:0.25;}
-  77% {opacity:0.15;}
-  88% {opacity:0.1;}
-  100% {opacity:0.1;}
+	0% {
+		opacity: 0.1;
+	}
+	11% {
+		opacity: 0.15;
+	}
+	22% {
+		opacity: 0.25;
+	}
+	33% {
+		opacity: 0.5;
+	}
+	44% {
+		opacity: 1;
+	}
+	55% {
+		opacity: 0.5;
+	}
+	66% {
+		opacity: 0.25;
+	}
+	77% {
+		opacity: 0.15;
+	}
+	88% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0.1;
+	}
 }
 @keyframes ani3 {
-   0% {opacity:0.25;}
-  11% {opacity:0.5;}
-  22% {opacity:1;}
-  33% {opacity:0.5;}
-  44% {opacity:0.25;}
-  55% {opacity:0.15;}
-  66% {opacity:0.1;}
-  77% {opacity:0.1;}
-  88% {opacity:0.1;}
-  100% {opacity:0.15;}
+	0% {
+		opacity: 0.25;
+	}
+	11% {
+		opacity: 0.5;
+	}
+	22% {
+		opacity: 1;
+	}
+	33% {
+		opacity: 0.5;
+	}
+	44% {
+		opacity: 0.25;
+	}
+	55% {
+		opacity: 0.15;
+	}
+	66% {
+		opacity: 0.1;
+	}
+	77% {
+		opacity: 0.1;
+	}
+	88% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 0.15;
+	}
 }
 
 main h1 {
@@ -397,6 +457,9 @@ main h3 {
 	background: linear-gradient(red, transparent),
 		linear-gradient(to top left, lime, transparent),
 		linear-gradient(to top right, blue, transparent);
+}
+.line2 {
+	margin: 10px 0;
 }
 
 .list {
