@@ -56,9 +56,10 @@ header {
 	width: 100%;
 }
 
-#header_top {
+#header_top,
+#footer {
 	height: 120px;
-	position: fixed;
+	/* position: fixed; */
 	top: 0;
 	white-space: nowrap;
 	z-index: 11;
@@ -76,6 +77,20 @@ header {
 	background: linear-gradient(red, transparent),
 		linear-gradient(to top left, lime, transparent),
 		linear-gradient(to top right, blue, transparent);
+}
+
+#header_top {
+	position: fixed;
+}
+
+.header_titles {
+	display: flex;
+}
+
+.header_titles h3 {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
 }
 
 .header_nav {
@@ -278,13 +293,13 @@ ul:after {
 }
 
 #ul1 > #up {
-	top: 25%;
-	right: 2%;
+	top: 20%;
+	right: 1.5%;
 }
 
 #ul1 > #down {
-	top: 75%;
-	right: 2%;
+	top: 70%;
+	right: 1.5%;
 }
 
 #up,
@@ -304,8 +319,8 @@ ul:after {
 }
 
 .meh {
-	width: 30px;
-	height: 30px;
+	width: 32px;
+	height: 32px;
 	position: relative;
 	box-shadow: -10px -10px #58775e;
 	transform: rotate(45deg);
@@ -313,8 +328,8 @@ ul:after {
 }
 
 .deh {
-	width: 30px;
-	height: 30px;
+	width: 32px;
+	height: 32px;
 	position: relative;
 	box-shadow: 10px 10px #58775e;
 	transform: rotate(45deg);
@@ -497,4 +512,41 @@ main ul li {
 .education > a {
 	border-bottom: 1px solid rgb(132, 0, 255);
 	color: #000;
+}
+
+.bottom_title {
+	text-align: center;
+	margin-top: 80px;
+}
+
+#footer {
+	position: relative;
+	margin-top: 90px;
+}
+
+.left {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.bottom_icons {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.instagram {
+	background: url(../img/instagram.svg) no-repeat;
+	width: 48px;
+	height: 48px;
+}
+
+.telegram {
+	background: url(../img/telegram.svg) no-repeat;
+	width: 45px;
+	height: 45px;
+	margin-right: 20px;
 }
