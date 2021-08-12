@@ -322,7 +322,7 @@
 
 .slider .slick-dots li.slick-active button {
 	/* background: rgba(250, 33, 4, 0.74); */
-	border: 1px solid #000;
+	border: 2px solid #000;
 	border-radius: 3px;
 	z-index: 999px;
 	opacity: 1;
