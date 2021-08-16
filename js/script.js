@@ -2,7 +2,7 @@ $(document).ready(function () {
 	$(".slider").slick({
 		arrows: true,
 		dots: true,
-		slidesToShow: 4,
+		slidesToShow: 3,
 		autoplay: true,
 		speed: 1000,
 		autoplaySpeed: 1000,
@@ -10,7 +10,7 @@ $(document).ready(function () {
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow: 2,
+					slidesToShow: 3,
 					arrows: false,
 				},
 			},

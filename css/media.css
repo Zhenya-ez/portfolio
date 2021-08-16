@@ -1,0 +1,24 @@
+@media screen and (max-width: 1575px) {
+	html,
+	body {
+		width: 100%;
+		min-width: 1575px;
+	}
+
+	#ul1,
+	#down {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1175px) {
+	html,
+	body {
+		width: 100%;
+		min-width: 1175px;
+	}
+
+	.icons {
+		display: none;
+	}
+}
