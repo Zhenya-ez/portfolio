@@ -513,8 +513,8 @@ main h3 {
 	padding-left: 140px;
 	width: 590px;
 	/* margin: 0 auto; */
-	    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .list > ul > li {
