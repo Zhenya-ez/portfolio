@@ -2,15 +2,15 @@ $(document).ready(function () {
 	$(".slider").slick({
 		arrows: true,
 		dots: true,
-		slidesToShow: 3,
-		autoplay: true,
+		slidesToShow: 2,
+		autoplay: false,
 		speed: 1000,
 		autoplaySpeed: 1000,
 		responsive: [
 			{
-				breakpoint: 768,
+				breakpoint: 1175,
 				settings: {
-					slidesToShow: 3,
+					slidesToShow: 2,
 					arrows: false,
 				},
 			},

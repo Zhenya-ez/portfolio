@@ -2,7 +2,6 @@
 	html,
 	body {
 		width: 100%;
-		min-width: 1575px;
 	}
 
 	#ul1,
@@ -15,10 +14,226 @@
 	html,
 	body {
 		width: 100%;
-		min-width: 1175px;
 	}
 
 	.icons {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 775px) {
+	html,
+	body {
+		width: 100%;
+	}
+
+	.header_titles,
+	.icons {
+		display: none;
+	}
+
+	.bottom_title {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	html,
+	body {
+		width: 100%;
+	}
+
+	.line {
+		margin: 50px 0;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	.menu a,
+	.submenu a {
+		font: 16px/10px "Playfair Display", serif;
+	}
+
+	.submenu {
+		position: absolute;
+		top: 50px;
+		left: 11px;
+	}
+
+	.submenu_inst,
+	.submenu_face,
+	.submenu_tel,
+	.submenu_vib {
+		display: none;
+	}
+
+	.menu a:before {
+		height: 40px;
+	}
+
+	.submenu > li > a {
+		padding: 15px;
+	}
+
+	.list {
+		display: flex;
+		padding-left: 80px;
+		width: 100%;
+		margin: 0 auto;
+		/* margin-left: auto;
+	margin-right: auto; */
+	}
+
+	main h4 {
+		display: block;
+		padding-bottom: 20px;
+		font: bold 20px/21px "Playfair Display", serif;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	main ul li {
+		margin-left: 0;
+	}
+
+	.technology {
+		padding-right: 35px;
+	}
+
+	.viber,
+	.telegram,
+	.instagram {
+		margin-right: 5px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	html,
+	body {
+		width: 100%;
+	}
+
+	main h1 {
+		padding: 170px 0 40px 0;
+	}
+
+	.line {
+		margin: 40px 0;
+	}
+
+	.list {
+		padding-left: 50px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	main ul li {
+		margin-left: 0;
+	}
+
+	.technology {
+		padding-right: 35px;
+	}
+
+	.bottom_title {
+		margin-top: 40px;
+		font-size: 18px;
+	}
+
+	#footer {
+		margin-top: 40px;
+	}
+
+	.viber,
+	.telegram,
+	.instagram {
+		margin-right: 5px;
+	}
+
+	.left {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	html,
+	body {
+		width: 100%;
+	}
+
+	.menu_hide {
+		display: none !important;
+	}
+
+	main h1 {
+		padding: 160px 0 30px 0;
+		font-size: 20px;
+	}
+
+	.line {
+		margin: 40px 0;
+	}
+
+	.list {
+		padding-left: 50px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	main ul li {
+		margin-left: 0;
+	}
+
+	.list > ul > li {
+		font-size: 16px;
+	}
+
+	main h4 {
+		font: bold 18px/19px "Playfair Display", serif;
+	}
+
+	.education,
+	.about_me {
+		font-size: 16px;
+	}
+
+	.technology {
+		padding-right: 35px;
+	}
+
+	.bottom_title {
+		margin-top: 40px;
+		font-size: 18px;
+	}
+
+	#footer {
+		margin-top: 40px;
+	}
+
+	.viber,
+	.telegram,
+	.instagram {
+		margin-right: 5px;
+	}
+
+	.left {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.left h3 {
+		font-size: 16px;
 	}
 }
