@@ -102,16 +102,15 @@
 	height: 10px;
 	border-radius: 3px;
 	background-color: #58775e;
-	box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 20px,
-		inset rgba(252, 255, 255, 0.7) 0 3px 20px, rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
+	box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 20px, inset rgba(252, 255, 255, 0.7) 0 3px 20px,
+		rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
 	background-blend-mode: screen;
 	background-blend-mode: multiply;
 	background-blend-mode: overlay;
 	background-blend-mode: darken;
 	background-blend-mode: soft-light;
 	background-blend-mode: luminosity;
-	background: linear-gradient(red, transparent),
-		linear-gradient(to top left, lime, transparent),
+	background: linear-gradient(red, transparent), linear-gradient(to top left, lime, transparent),
 		linear-gradient(to top right, blue, transparent);
 	cursor: pointer;
 }
@@ -134,4 +133,8 @@
 
 .slider__item img:hover {
 	transform: scale(1.1);
+}
+
+.slider_wrapper h3 {
+	margin-top: 20px;
 }
