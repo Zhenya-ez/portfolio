@@ -16,8 +16,13 @@
 		width: 100%;
 	}
 
+	.header_titles,
 	.icons {
 		display: none;
+	}
+
+	.header_nav {
+		margin-right: 0px;
 	}
 }
 
@@ -27,13 +32,34 @@
 		width: 100%;
 	}
 
-	.header_titles,
-	.icons {
-		display: none;
+	main h1 {
+		text-align: center;
+		padding: 200px 0 70px 0;
+		font: bold 32px/28px "Open Sans", sans-serif;
+	}
+
+	.list > ul > li {
+		font-size: 16px;
+	}
+
+	.block {
+		width: 480px;
+	}
+
+	.list {
+		display: flex;
+		padding-left: 80px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.bottom_title {
 		font-size: 20px;
+	}
+
+	.left {
+		display: flex;
+		flex-direction: column-reverse;
 	}
 }
 
@@ -61,7 +87,7 @@
 
 	.menu a,
 	.submenu a {
-		font: 16px/10px "Playfair Display", serif;
+		font: 16px/10px "Open Sans", sans-serif;
 	}
 
 	.submenu {
@@ -85,19 +111,10 @@
 		padding: 15px;
 	}
 
-	.list {
-		display: flex;
-		padding-left: 80px;
-		width: 100%;
-		margin: 0 auto;
-		/* margin-left: auto;
-	margin-right: auto; */
-	}
-
 	main h4 {
 		display: block;
 		padding-bottom: 20px;
-		font: bold 20px/21px "Playfair Display", serif;
+		font: bold 20px/21px "Open Sans", sans-serif;
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
@@ -128,6 +145,10 @@
 		padding: 170px 0 40px 0;
 	}
 
+	.block {
+		width: 400px;
+	}
+
 	.line {
 		margin: 40px 0;
 	}
@@ -147,7 +168,6 @@
 	}
 
 	.bottom_title {
-		margin-top: 40px;
 		font-size: 18px;
 	}
 
@@ -179,7 +199,11 @@
 
 	main h1 {
 		padding: 160px 0 30px 0;
-		font-size: 20px;
+		font-size: 26px;
+	}
+
+	.block {
+		width: 340px;
 	}
 
 	.line {
@@ -197,16 +221,16 @@
 	}
 
 	.list > ul > li {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	main h4 {
-		font: bold 18px/19px "Playfair Display", serif;
+		font: bold 18px/19px "Open Sans", sans-serif;
 	}
 
 	.education,
 	.about_me {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.technology {
@@ -214,7 +238,6 @@
 	}
 
 	.bottom_title {
-		margin-top: 40px;
 		font-size: 18px;
 	}
 
