@@ -99,7 +99,8 @@
 	.submenu_inst,
 	.submenu_face,
 	.submenu_tel,
-	.submenu_vib {
+	.submenu_vib,
+	.submenu_linkedin {
 		display: none;
 	}
 
@@ -130,7 +131,9 @@
 
 	.viber,
 	.telegram,
-	.instagram {
+	.instagram,
+	.facebook,
+	.linkedin {
 		margin-right: 5px;
 	}
 }
@@ -173,12 +176,6 @@
 
 	#footer {
 		margin-top: 40px;
-	}
-
-	.viber,
-	.telegram,
-	.instagram {
-		margin-right: 5px;
 	}
 
 	.left {
@@ -243,12 +240,6 @@
 
 	#footer {
 		margin-top: 40px;
-	}
-
-	.viber,
-	.telegram,
-	.instagram {
-		margin-right: 5px;
 	}
 
 	.left {
