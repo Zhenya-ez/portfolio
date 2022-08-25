@@ -35,7 +35,7 @@
 	main h1 {
 		text-align: center;
 		padding: 200px 0 70px 0;
-		font: bold 32px/28px "Open Sans", sans-serif;
+		font: bold 32px/28px "Montserrat", sans-serif;
 	}
 
 	.list > ul > li {
@@ -87,7 +87,7 @@
 
 	.menu a,
 	.submenu a {
-		font: 16px/10px "Open Sans", sans-serif;
+		font: 16px/10px "Montserrat", sans-serif;
 	}
 
 	.submenu {
@@ -115,7 +115,7 @@
 	main h4 {
 		display: block;
 		padding-bottom: 20px;
-		font: bold 20px/21px "Open Sans", sans-serif;
+		font: bold 20px/21px "Montserrat", sans-serif;
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
@@ -222,7 +222,7 @@
 	}
 
 	main h4 {
-		font: bold 18px/19px "Open Sans", sans-serif;
+		font: bold 18px/19px "Montserrat", sans-serif;
 	}
 
 	.education,

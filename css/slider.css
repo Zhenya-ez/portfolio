@@ -61,7 +61,7 @@
 }
 
 .slider .slick-arrow {
-	top: 40%;
+	top: 37.5%;
 }
 
 .slider .slick-arrow.slick-prev {
@@ -101,22 +101,22 @@
 	width: 29px;
 	height: 10px;
 	border-radius: 3px;
-	background-color: #58775e;
-	box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 20px, inset rgba(252, 255, 255, 0.7) 0 3px 20px,
-		rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
+	background-color: rgba(30, 81, 123, 0.7);
+	box-shadow: rgba(30, 81, 123, 0.7);
 	background-blend-mode: screen;
 	background-blend-mode: multiply;
 	background-blend-mode: overlay;
 	background-blend-mode: darken;
 	background-blend-mode: soft-light;
 	background-blend-mode: luminosity;
-	background: linear-gradient(red, transparent), linear-gradient(to top left, lime, transparent),
-		linear-gradient(to top right, blue, transparent);
+	/* background: linear-gradient(red, transparent), linear-gradient(to top left, lime, transparent),
+		linear-gradient(to top right, blue, transparent); */
+		background: rgba(30, 81, 123, 0.7);
 	cursor: pointer;
 }
 
 .slider .slick-dots li.slick-active button {
-	border: 2px solid #000;
+	border: 2px solid rgb(11, 11, 11);
 	border-radius: 3px;
 	z-index: 999px;
 	opacity: 1;

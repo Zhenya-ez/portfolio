@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"); */
 
 *,
 *:before,
@@ -13,10 +15,10 @@ html,
 body {
 	width: 100%;
 	margin: 0 auto;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-	background-color: #000;
+	background-color: rgb(11, 11, 11);
 }
 
 h1,
@@ -77,7 +79,10 @@ header {
 	width: 100%;
 }
 
-#header_top h3,
+#header_top h3 {
+	font-weight: 500;
+}
+
 #header_top a,
 #footer h3,
 #footer a {
@@ -93,7 +98,9 @@ header {
 	display: flex;
 	align-items: center;
 	margin-left: 15px;
-	font: 20px/22px "Open Sans", sans-serif;
+	/* color: rgb(235, 87, 87); */
+	color: #fff;
+	font: 32px/34px "Indie Flower", cursive;
 }
 
 .header_nav {
@@ -110,8 +117,8 @@ header {
 
 .logo {
 	background: url(../img/logo.svg) no-repeat;
-	width: 142px;
-	height: 130px;
+	width: 93.16px;
+	height: 80px;
 	display: block;
 }
 
@@ -127,7 +134,7 @@ header {
 /* Drop down menu */
 .menu a,
 .submenu a {
-	font: 19px/21px "Open Sans", sans-serif;
+	font: 16px/18px "Montserrat", sans-serif;
 	text-decoration: none;
 	position: relative;
 	display: inline-block;
@@ -169,7 +176,7 @@ header {
 } */
 
 .menu a:active {
-	top: 1px;
+	top: -1px;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 2px 3px rgba(0, 0, 0, 0.5) inset, 0 1px 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -210,7 +217,7 @@ ul:after {
 
 .submenu {
 	position: absolute;
-	top: 62px;
+	top: 59px;
 	left: 11px;
 	display: flex;
 	align-items: center;
@@ -270,6 +277,8 @@ ul:after {
 
 .welcome {
 	margin-right: 15px;
+	font-weight: 500;
+	color: #fff;
 }
 
 /* arrows */
@@ -448,7 +457,8 @@ ul:after {
 main h1 {
 	text-align: center;
 	padding: 200px 0 70px 0;
-	font: bold 38px/32px "Open Sans", sans-serif;
+	color: rgb(235, 87, 87);
+	font: bold 34px/28px "Montserrat", sans-serif;
 }
 
 .block {
@@ -461,6 +471,7 @@ main h1 {
 
 main h3 {
 	text-align: center;
+	line-height: 32px;
 }
 
 .line {
@@ -483,19 +494,27 @@ main h3 {
 .list {
 	display: flex;
 	padding-left: 140px;
-	width: 590px;
+	width: 620px;
 	margin-left: auto;
 	margin-right: auto;
+	line-height: 32px;
 }
 
 .list > ul > li {
 	font-size: 18px;
+	color: rgb(235, 87, 87);
+}
+
+.list span {
+	color: rgba(255, 255, 255, 0.794);
 }
 
 main h4 {
+	/* color: #fff; */
 	display: block;
 	padding-bottom: 20px;
-	font: bold 20px/21px "Open Sans", sans-serif;
+	font: 20px/21px "Montserrat", sans-serif;
+	font-weight: 550;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -516,7 +535,7 @@ main ul li {
 .education,
 .about_me {
 	text-align: left;
-	line-height: 28px;
+	line-height: 32px;
 	font-size: 18px;
 	padding: 0;
 }
@@ -526,10 +545,12 @@ main ul li {
 }
 
 h4 {
-	text-decoration: underline solid 2px #21417b;
+	text-decoration: underline solid 2px rgb(235, 87, 87);
 }
 
 .bottom_title {
+	font-size: 20px;
+	font-weight: 550;
 	text-align: center;
 }
 
@@ -559,6 +580,11 @@ h4 {
 }
 
 .bottom_icons > li > a {
+	display: block;
+}
+
+.block {
+	text-align: center;
 	display: block;
 }
 
